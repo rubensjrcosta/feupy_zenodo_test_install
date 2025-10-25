@@ -1,0 +1,16 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: source_name, datatype: string}
+# - {name: ra, datatype: float64}
+# - {name: dec, datatype: float64}
+# - {name: spec_type, datatype: string}
+# meta: !!omap
+# - {catalog_name: hawc-2021ApJ}
+# - {SED_TYPE: e2dnde}
+# - {reference: 'https://iopscience.iop.org/article/10.3847/2041-8213/abd77b'}
+# schema: astropy-2.0
+source_name ra dec spec_type
+"HAWC J1825-138" 276.38 -13.86 ecpl
+"HAWC J1826-128" 276.5 -12.86 ecpl
+"HAWC J1825-134" 276.44 -13.42 pl

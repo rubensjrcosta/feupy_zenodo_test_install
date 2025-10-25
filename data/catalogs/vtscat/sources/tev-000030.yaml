@@ -1,0 +1,22 @@
+---
+source_id: 30
+common_name: HESS J0632+057
+veritas_name:
+  name: VER J0633+057
+  components: null
+other_names:
+  - HD 259440
+  - HESS J0632+057
+where: gal
+pos:
+  simbad_id: HD 259440
+  ra: 98.24689375
+  dec: 5.80032722
+reference_id:
+  - 2021ApJ...923..241A
+  - 2021ApJ...923...17T
+  - 2020ApJ...888..115A
+  - 2017AIPC.1792d0023S
+  - 2017ICRC...35..729M
+  - 2014ApJ...780..168A
+  - 2009ApJ...698L..94A

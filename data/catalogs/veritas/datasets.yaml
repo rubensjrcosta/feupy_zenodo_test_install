@@ -1,0 +1,19 @@
+datasets:
+- name: VER J2031+415
+  type: FluxPointsDataset
+  filename: VER_J2031+415.fits
+- name: VER J2019+407
+  type: FluxPointsDataset
+  filename: VER_J2019+407.fits
+- name: VER J2019+368
+  type: FluxPointsDataset
+  filename: VER_J2019+368.fits
+- name: VER J2018+367*
+  type: FluxPointsDataset
+  filename: VER_J2018+367*.fits
+- name: VER J2020+368*
+  type: FluxPointsDataset
+  filename: VER_J2020+368*.fits
+- name: VER J2016+371
+  type: FluxPointsDataset
+  filename: VER_J2016+371.fits

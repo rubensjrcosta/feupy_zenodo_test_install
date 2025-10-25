@@ -1,0 +1,26 @@
+---
+source_id: 49
+common_name: Markarian 421
+veritas_name:
+  name: VER J1104+382
+  components: null
+other_names:
+  - Markarian 421
+  - Mrk 421
+  - 1ES 1101+384
+  - 1H 1104+382
+  - H 1105+38
+  - HESS J1104+382
+where: egal
+pos:
+  simbad_id: Markarian 421
+  ra: 166.113808083
+  dec: 38.208833083
+reference_id:
+  - 2020ApJ...890...97A
+  - 2017ApJ...834....2A
+  - 2016ApJ...819..156B
+  - 2015A&A...578A..22A
+  - 2011ApJ...738...25A
+  - 2009ApJ...691L..13D
+  - 2009ApJ...703..169A

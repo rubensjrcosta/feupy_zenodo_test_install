@@ -1,0 +1,59 @@
+components:
+-   name: 1LHAASO J1825-1256u
+    type: SkyModel
+    spectral:
+        type: ExpCutoffPowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.483342713349015
+            error: 0.1243191614586986
+        -   name: amplitude
+            value: 2.1564365397285452e-14
+            unit: TeV-1 s-1 cm-2
+            error: 2.3742825834497336e-15
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: lambda_
+            value: 0.004668785662588688
+            unit: TeV-1
+            error: 0.002379894577553946
+        -   name: alpha
+            value: 1.0
+-   name: 1LHAASO J1825-1337u
+    type: SkyModel
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 1.8027989617221833e-14
+            unit: TeV-1 s-1 cm-2
+            error: 2.8161452015458123e-15
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: alpha
+            value: 1.7526290863545653
+            error: 0.2003448674875673
+        -   name: beta
+            value: 0.2651883055244816
+            error: 0.05823805563025827
+-   name: 1LHAASO J1825-1418
+    type: SkyModel
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 1.145018517982805e-13
+            unit: TeV-1 s-1 cm-2
+            error: 1.0330851990454687e-14
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: alpha
+            value: 2.83130285987716
+            error: 0.07774169612750811
+        -   name: beta
+            value: 0.1743921099509097
+            error: 0.05350409107454075
+covariance: models_covariance.dat

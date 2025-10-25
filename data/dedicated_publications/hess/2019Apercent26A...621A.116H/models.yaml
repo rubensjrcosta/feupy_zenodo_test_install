@@ -1,0 +1,23 @@
+components:
+-   name: HESS J1825-137
+    type: SkyModel
+    spectral:
+        type: ExpCutoffPowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.4189672684000203
+            error: 0.016670191829483098
+        -   name: amplitude
+            value: 1.8141404430041682e-11
+            unit: TeV-1 s-1 cm-2
+            error: 2.2359352733138354e-13
+        -   name: reference
+            value: 1.0
+            unit: TeV
+        -   name: lambda_
+            value: 0.032397703361310516
+            unit: TeV-1
+            error: 0.005789039687134914
+        -   name: alpha
+            value: 1.0
+covariance: models_covariance.dat

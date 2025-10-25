@@ -1,0 +1,23 @@
+---
+reference_id: 2022ApJ...924...95A
+source_id: [100199, 177, 178]
+telescope: [veritas]
+
+datasets:
+  - VER-100199.yaml
+  - VER-100199-lc-1.ecsv
+  - VER-100199-sed-1.ecsv
+  - VER-100199-sed-2.ecsv
+  - VER-100199-sed-3.ecsv
+  - VER-100199-sed-4.ecsv
+  - VER-100199-sed-5.ecsv
+  - VER-000177.yaml
+  - VER-000177-lc-1.ecsv
+  - VER-000177-sed-1.ecsv
+  - VER-000178.yaml
+  - VER-000178-lc-1.ecsv
+  - VER-000178-sed-1.ecsv
+
+data_entry:
+  status: complete
+  reviewed: true

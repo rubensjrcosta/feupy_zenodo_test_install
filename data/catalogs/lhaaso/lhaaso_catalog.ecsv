@@ -1,0 +1,40 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: source_name, datatype: string}
+# - {name: ra, datatype: float64}
+# - {name: dec, datatype: float64}
+# - {name: Significance_100TeV, datatype: float64}
+# - {name: Energy_max, unit: PeV, datatype: float64}
+# - {name: Energy_max_error, datatype: float64}
+# - {name: Flux_100TeV, datatype: float64, format: .3e}
+# - {name: Flux_error_100TeV, datatype: float64, format: .3e}
+# - {name: sed_e_ref, unit: TeV, datatype: string, format: .3f, description: Reference energy, subtype: 'float64[10]'}
+# - {name: sed_e2dnde, unit: erg / (s cm2), datatype: string, format: .3e, description: Differential flux (dnde) SED value, subtype: 'float64[10]'}
+# - {name: sed_e2dnde_err, unit: erg / (s cm2), datatype: string, format: .3e, description: Differential flux (dnde) SED errors, subtype: 'float64[10]'}
+# - {name: sed_e2dnde_errn, unit: erg / (s cm2), datatype: string, format: .3e, description: Differential flux (dnde) SED negative errors,
+#   subtype: 'float64[10]'}
+# - {name: sed_e2dnde_errp, unit: erg / (s cm2), datatype: string, format: .3e, description: Differential flux (dnde) SED positive errors,
+#   subtype: 'float64[10]'}
+# - {name: sed_e2dnde_ul, unit: erg / (s cm2), datatype: string, format: .3e, description: Differential flux (dnde) SED upper limit, subtype: 'float64[10]'}
+# - {name: sed_is_ul, unit: '', datatype: string, description: Whether data is an upper limit., subtype: 'bool[10]'}
+# - {name: spec_type, datatype: string}
+# - {name: spec_reference, unit: TeV, datatype: float64}
+# meta: !!omap
+# - {catalog_name: LHAASO}
+# - {SED_TYPE: e2dnde}
+# - {reference: 'https://doi.org/10.1038/s41586-021-03498-z'}
+# schema: astropy-2.0
+source_name ra dec Significance_100TeV Energy_max Energy_max_error Flux_100TeV Flux_error_100TeV sed_e_ref sed_e2dnde sed_e2dnde_err sed_e2dnde_errn sed_e2dnde_errp sed_e2dnde_ul sed_is_ul spec_type spec_reference
+"LHAASO J0534+2202" 83.55 22.05 17.8 0.88 0.11 6.1e-17 8.540000000000001e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [6.1e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [8.540000000000001e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J1825-1326" 276.45 -13.45 16.4 0.42 0.16 2.1777e-16 3.172e-17 [31.6,50.1,79.4,126.0,200.0,316.0,501.0,NaN,NaN,NaN] [1.664e-11,6.9440001e-12,5.5200001e-12,3.8080001e-12,9.6000001e-13,3.7120001e-13,1.936e-13,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [5.2640001e-12,1.4784e-12,6.5440001e-13,5.6160001e-13,3.296e-13,2.384e-13,1.2416e-13,NaN,NaN,NaN] [5.2640001e-12,1.4784e-12,6.5440001e-13,5.6160001e-13,3.9040001e-13,2.992e-13,3.5520001e-13,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] lp 100.0
+"LHAASO J1839-0545" 279.95 -5.75 7.7 0.21 0.05 4.27e-17 1.098e-17 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [4.2700000000000005e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [1.098e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J1843-0338" 280.75 -3.65 8.5 0.26 0.1 4.4530000000000006e-17 1.0370000000000001e-17 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [4.453000000000001e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [1.0370000000000002e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J1849-0003" 282.35 -0.05 10.4 0.35 0.07 4.5140000000000005e-17 9.15e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [4.5140000000000003e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [9.15e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J1908+0621" 287.05 6.35 17.2 0.44 0.05 8.296000000000001e-17 1.098e-17 [12.6,20.0,31.6,50.1,79.4,126.0,200.0,316.0,501.0,NaN] [9.2640001e-12,1.024e-11,6.2720001e-12,4.6560001e-12,2.8e-12,1.3584e-12,1.184e-12,4.4640001e-13,2.192e-13,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [1.2976e-12,8.1280001e-13,4.7840001e-13,3.4880001e-13,2.688e-13,2.08e-13,2.208e-13,1.5344e-13,1.4416e-13,NaN] [1.2976e-12,8.1280001e-13,4.7840001e-13,3.4880001e-13,2.688e-13,2.08e-13,2.208e-13,2.192e-13,1.856e-13,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] lp 100.0
+"LHAASO J1929+1745" 292.25 17.75 7.4 0.71 0.07 2.318e-17 5.49e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [2.3180000000000003e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [5.49e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J1956+2845" 299.05 28.75 7.4 0.42 0.03 2.5010000000000002e-17 5.49e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [2.501e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [5.49e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J2018+3651" 304.75 36.85 10.4 0.27 0.02 3.05e-17 6.100000000000001e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [3.05e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [6.1e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J2032+4102" 308.05 41.05 10.5 1.42 0.13 3.2940000000000005e-17 6.100000000000001e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [3.2940000000000004e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [6.1e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J2108+5157" 317.15 51.95 8.3 0.43 0.05 2.318e-17 5.49e-18 [100.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [2.3180000000000003e-13,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [5.49e-14,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] pl 100.0
+"LHAASO J2226+6057" 336.75 60.95 13.6 0.57 0.19 6.405000000000001e-17 9.76e-18 [20.0,31.6,50.1,79.4,126.0,200.0,316.0,501.0,NaN,NaN] [4.0320001e-12,3.264e-12,2.992e-12,1.4128e-12,1.1968e-12,3.4240001e-13,1.2816e-13,6.9440001e-14,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [8.0000001e-13,4.6720001e-13,3.04e-13,2.016e-13,1.856e-13,1.152e-13,8.7040001e-14,4.7040001e-14,NaN,NaN] [8.0000001e-13,4.6720001e-13,3.04e-13,2.016e-13,1.856e-13,1.3824e-13,1.1968e-13,1.3456e-13,NaN,NaN] [NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN] [false,false,false,false,false,false,false,false,false,false] lp 100.0

@@ -1,0 +1,65 @@
+components:
+-   name: eHWC J1825-134
+    type: SkyModel
+    datasets_names: eHWC J1825-134
+    spectral:
+        type: ExpCutoffPowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.044497312365184
+            error: 0.054004825135639645
+        -   name: amplitude
+            value: 2.365369522831204e-13
+            unit: TeV-1 s-1 cm-2
+            error: 1.326485733271409e-14
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: lambda_
+            value: 0.01613281708007961
+            unit: TeV-1
+            error: 0.0026658475319183174
+        -   name: alpha
+            value: 1.0
+-   name: eHWC J1907+063
+    type: SkyModel
+    datasets_names: eHWC J1907+063
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 1.0548107629945316e-13
+            unit: TeV-1 s-1 cm-2
+            error: 4.147052032776477e-15
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: alpha
+            value: 2.431335183810892
+            error: 0.026307502883993444
+        -   name: beta
+            value: 0.10653907284078132
+            error: 0.020564989386175684
+-   name: eHWC J2019+368
+    type: SkyModel
+    datasets_names: eHWC J2019+368
+    spectral:
+        type: ExpCutoffPowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 1.7534916915237415
+            error: 0.08915248685923752
+        -   name: amplitude
+            value: 5.563800915401131e-14
+            unit: TeV-1 s-1 cm-2
+            error: 5.170528519669969e-15
+        -   name: reference
+            value: 10.0
+            unit: TeV
+        -   name: lambda_
+            value: 0.022684958929562054
+            unit: TeV-1
+            error: 0.005313321854917038
+        -   name: alpha
+            value: 1.0
+covariance: models_covariance.dat

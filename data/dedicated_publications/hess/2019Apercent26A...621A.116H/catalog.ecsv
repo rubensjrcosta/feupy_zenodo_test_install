@@ -1,0 +1,16 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: source_name, datatype: string}
+# - {name: ra, unit: deg, datatype: float64, format: .3f}
+# - {name: dec, unit: deg, datatype: float64, format: .3f}
+# - {name: radius, unit: deg, datatype: float64, format: .3f}
+# - {name: radius_core, unit: deg, datatype: float64, format: .3f}
+# - {name: spec_type, datatype: string}
+# meta: !!omap
+# - {catalog_name: hess-2019A&A}
+# - {SED_TYPE: e2dnde}
+# - {reference: 'https://doi.org/10.1051/0004-6361/201834335'}
+# schema: astropy-2.0
+source_name ra dec radius radius_core spec_type
+"HESS J1825-137" 276.45416666666665 -13.77638888888889 0.8 0.4 ecpl

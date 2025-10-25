@@ -1,0 +1,22 @@
+---
+source_id: 58
+common_name: M 87
+veritas_name:
+  name: VER J1230+123
+  components: null
+other_names:
+  - 1ES 1228+126
+  - 1H 1226+128
+  - HESS J1230+123
+where: egal
+pos:
+  simbad_id: M 87
+  ra: 187.70593075
+  dec: 12.391123306
+reference_id:
+  - 2021ApJ...911L..11E
+  - 2012ApJ...746..151A
+  - 2012ApJ...746..141A
+  - 2010ApJ...716..819A
+  - 2009Sci...325..444A
+  - 2008ApJ...679..397A

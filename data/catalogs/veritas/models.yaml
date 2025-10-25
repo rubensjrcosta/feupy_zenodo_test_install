@@ -1,0 +1,98 @@
+components:
+-   name: VER J2031+415
+    type: SkyModel
+    datasets_names: VER J2031+415
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.088911553276042
+            error: 0.20002467896695522
+        -   name: amplitude
+            value: 1.2400385271040362e-13
+            unit: TeV-1 s-1 cm-2
+            error: 2.419880660436384e-14
+        -   name: reference
+            value: 2300.0
+            unit: GeV
+-   name: VER J2019+407
+    type: SkyModel
+    datasets_names: VER J2019+407
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.7871554868331803
+            error: 0.3918950896862639
+        -   name: amplitude
+            value: 5.157358248143605e-13
+            unit: TeV-1 s-1 cm-2
+            error: 9.564418102777442e-14
+        -   name: reference
+            value: 1500.0
+            unit: GeV
+-   name: VER J2019+368
+    type: SkyModel
+    datasets_names: VER J2019+368
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 1.9759720187303778
+            error: 0.0874772129500418
+        -   name: amplitude
+            value: 1.0158941809947291e-13
+            unit: TeV-1 s-1 cm-2
+            error: 1.1409742633563036e-14
+        -   name: reference
+            value: 3110.0
+            unit: GeV
+-   name: VER J2018+367*
+    type: SkyModel
+    datasets_names: VER J2018+367*
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.00278254575315
+            error: 0.20650338381634173
+        -   name: amplitude
+            value: 5.122292093096595e-14
+            unit: TeV-1 s-1 cm-2
+            error: 9.365953539939499e-15
+        -   name: reference
+            value: 2710.0
+            unit: GeV
+-   name: VER J2020+368*
+    type: SkyModel
+    datasets_names: VER J2020+368*
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 1.7012191027410053
+            error: 0.25912862040330825
+        -   name: amplitude
+            value: 2.982889451294653e-14
+            unit: TeV-1 s-1 cm-2
+            error: 5.914930855129291e-15
+        -   name: reference
+            value: 3270.0
+            unit: GeV
+-   name: VER J2016+371
+    type: SkyModel
+    datasets_names: VER J2016+371
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.119083046999366
+            error: 0.7408732123090448
+        -   name: amplitude
+            value: 2.77799577328666e-14
+            unit: TeV-1 s-1 cm-2
+            error: 1.2187558637366986e-14
+        -   name: reference
+            value: 2510.0
+            unit: GeV
+covariance: models_covariance.dat

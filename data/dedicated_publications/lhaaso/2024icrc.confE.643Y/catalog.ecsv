@@ -1,0 +1,14 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: source_name, datatype: string}
+# - {name: ra, unit: deg, datatype: float64}
+# - {name: dec, unit: deg, datatype: float64}
+# meta: !!omap
+# - {catalog_name: PoS-ICRC2023}
+# - comments: ['reference: https://doi.org/10.22323/1.444.0643']
+# schema: astropy-2.0
+source_name ra dec
+"1LHAASO J1825-1256u" 276.44 -12.94
+"1LHAASO J1825-1337u" 276.45 -13.63
+"1LHAASO J1825-1418" 276.29 -14.32

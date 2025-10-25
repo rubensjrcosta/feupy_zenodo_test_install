@@ -1,0 +1,24 @@
+name: feupy
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy>=1.22
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - astropy>=6.0
+  - naima>=0.10
+  - gammapy=1.3
+  - jupyter
+  - ipykernel
+  - pyyaml
+  - tqdm
+  - pip:
+      - -e .
+
+variables:
+  # Default data paths
+  GAMMAPY_DATA: /home/phoenix/Coding/data/gammapy-datasets/1.3
+  FEUPY_DATA: /home/phoenix/Coding/GitHub/feupy-zenodo-test
