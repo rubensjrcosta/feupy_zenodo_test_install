@@ -1,0 +1,10 @@
+# .gitignore
+__pycache__/
+*.egg-info/
+*.pyc
+*.pyo
+*.log
+*.out
+.ipynb_checkpoints/
+.DS_Store
+.env
