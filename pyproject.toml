@@ -1,18 +1,17 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "feupy"
 version = "0.1.0"
-description = "FeuPy — A Python application for VHE gamma-ray analysis with Gammapy, aiding γ-ray counterpart searches, spectral model fitting across wavelengths. It includes tools for Cherenkov Telescope Array Observatory (CTAO) sensitivity analysis and observation simulations, and non-thermal radiation calculations from relativistic particles. "
+description = "FeuPy: tools for VHE gamma-ray astrophysics using Gammapy, including SED modeling, CTAO simulations, and multiwavelength particle radiation utilities."
+readme = "README.md"
 authors = [
     { name = "R. Jr. Costa", email = "rubensp@utfpr.edu.br" },
-        { name = "R. C. Dos Anjos", email = "ritacassia@ufpr.br" }
-      
+    { name = "R. C. Dos Anjos", email = "ritacassia@ufpr.br" }
 ]
 license = { text = "BSD-3-Clause" }
-readme = "README.md"
 requires-python = ">=3.9"
 
 dependencies = [
@@ -24,6 +23,16 @@ dependencies = [
     "matplotlib>=3.7",
 ]
 
+
+[tool.setuptools.package-data]
+feupy = [
+    "visualization/styles/*.mplstyle",
+    "data/*.ecsv",
+    "data/**/*.ecsv",
+    "data/**/*.fits",
+    "data/**/*.txt",
+]
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["feupy*"]
@@ -31,4 +40,5 @@ include = ["feupy*"]
 [project.urls]
 Homepage = "https://github.com/rubensjrcosta/feupy"
 Issues = "https://github.com/rubensjrcosta/feupy/issues"
-
+Documentation = "https://github.com/rubensjrcosta/feupy"
+source = "https://github.com/rubensjrcosta/feupy"
